@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ساعت هوشمند</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css" rel="stylesheet">
+</head>
+<body>
+    <div class="watch-container">
+        <h1 style="color: #ff8b94;">ساعت هوشمند</h1>
+        <!-- جایگزین کردن آدرس تصویر خودتان در اینجا -->
+        <img src="images/png watch.png" alt="ساعت" class="watch-image">
+        <div class="time" id="time">--:--:--</div>
+        <button class="alarm-btn" onclick="setAlarm()">
+            <i class="fas fa-bell"></i> تنظیم هشدار
+        </button>
+        <div class="alarm-list" id="alarms"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
